@@ -1,4 +1,20 @@
+/* paleta de colores
+verde oscuro #1a472a
+verde contraste oscuro #6BFF9F
+verde intermedio #2a623d
+gris oscuro #5d5d5d
+gris claro #aaaaaa
+negro #16161d
+blanco #fdfff5
+
+*/
 html {   
     min-width: 320px;   
     max-width: 1400px; 
+    background-color: 	#aaaaaa;
     }
+.encabezado{
+    background-color: #1a472a;
+    color: #addfad;
+    font-weight: bold;
+}
