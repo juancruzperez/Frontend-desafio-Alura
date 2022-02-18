@@ -1,6 +1,6 @@
 /* paleta de colores
 verde oscuro #1a472a
-verde contraste oscuro #6BFF9F
+verde contraste oscuro #addfad
 verde intermedio #2a623d
 gris oscuro #5d5d5d
 gris claro #aaaaaa
@@ -17,4 +17,5 @@ html {
     background-color: #1a472a;
     color: #addfad;
     font-weight: bold;
+    padding: 2em;
 }
