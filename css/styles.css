@@ -6,16 +6,83 @@ gris oscuro #5d5d5d
 gris claro #aaaaaa
 negro #16161d
 blanco #fdfff5
-
 */
+/*sticky header*/
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1em;
+    
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .cuerpo {
+    padding-top: 102px;
+  }
+/*general*/
 html {   
     min-width: 320px;   
     max-width: 1400px; 
     background-color: 	#aaaaaa;
+    color: #16161d;
     }
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/*encabezado*/
 .encabezado{
     background-color: #1a472a;
     color: #addfad;
+    padding: 0.7em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 15%;
+}
+.caja{
+    width: 95%;
+    position: relative;
+    margin: 0;
+}
+nav{
+    position: relative;
+    top: 1em;
+    right: 0;
+    text-align: right;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0.6em 0.6em;
+}
+nav a {
+    text-transform: uppercase;
+    color: #addfad;
     font-weight: bold;
-    padding: 2em;
+    font-size:1.1em;
+    text-decoration: none;
+    margin: 0.5em 0;
+    padding: 0.5em 0;
+}
+
+/*main*/
+
+/*footer*/
+footer{
+    background-color: #1a472a;
+    color: #addfad;
+    font-weight: bold;
+    padding: 1em;
+}
+footer, p{
+    font-size: 1.2em;
+    text-align: center;
+}
+.iconos-enlace{
+    width: 1.5em;
+    min-width: 0.5em;
+    border: none;
+    padding: 0 1.25em;
 }
