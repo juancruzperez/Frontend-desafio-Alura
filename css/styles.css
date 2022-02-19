@@ -19,7 +19,11 @@ blanco #fdfff5
   
   /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
   .sticky + .cuerpo {
-    padding-top: 102px;
+    padding-top: 5em;
+  }
+  .responsive{
+    max-width: 100%;
+    height: auto;
   }
 /*general*/
 html {   
@@ -35,12 +39,11 @@ a{
     text-decoration: none;
 }
 /*encabezado*/
-.encabezado{
+#mi-encabezado{
     background-color: #1a472a;
     color: #addfad;
-    padding: 0.7em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    height: 15%;
+    height: 3.5%;
 }
 .caja{
     width: 95%;
@@ -49,7 +52,7 @@ a{
 }
 nav{
     position: relative;
-    top: 1em;
+    top: 0;
     right: 0;
     text-align: right;
 }
@@ -61,14 +64,23 @@ nav a {
     text-transform: uppercase;
     color: #addfad;
     font-weight: bold;
-    font-size:1.1em;
+    font-size:0.75em;
     text-decoration: none;
     margin: 0.5em 0;
     padding: 0.5em 0;
 }
 
 /*main*/
+main{
+    width: 95%;
+    padding: 0 0 0 2.5em; /*revisar el responsive porque no anda*/
+}
+.cuerpo section p {
+    color: #1a472a;
+    text-transform: capitalize;
+    padding: 2em 0 0 0 ;
 
+}
 /*footer*/
 footer{
     background-color: #1a472a;
